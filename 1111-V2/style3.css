@@ -1,0 +1,76 @@
+.product-card {
+position: relative; /* Якорь координат */
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+padding: 20px;
+width: 300px;
+height: 300px;
+}
+/* Бейдж скидки внутри карточки */
+.badge-sale {
+position: absolute;
+top: 100px;
+right: 100px; /* В правый верхний угол! */
+background-color: #ef4444;
+color: #ffffff;
+padding: 4px 10px;
+border-radius: 20px;
+
+font-size: 30px;
+}
+
+.a {
+    color: #ef4444;
+    font-size: xx-large;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.korobka {
+    
+    width: 700px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.korobka1 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(221, 93, 8);
+    border-radius: 10px;
+
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corn {
+    color: white;
+    font-size: 40px;
+
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hub {
+    color: white;
+    font-size: 40px;
+} 

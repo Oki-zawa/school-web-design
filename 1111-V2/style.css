@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+
+.loh {
+    color: violet;
+}
+
+.ex1 p {
+  display: inline;
+}
+.ex2 p {
+  display: inline-block;
+}
+
+.click-here {
+  color: red;
+  font-weight: 1000;
+  text-decoration: none;
+  font-size: xx-large;
+}
